@@ -1,0 +1,16 @@
+MidiFileStream	KEYWORD1
+begin	KEYWORD2
+end	KEYWORD2
+openChunk	KEYWORD2
+readEvent	KEYWORD2
+getChunkBytesLeft	KEYWORD2
+getFormat	KEYWORD2
+getNumTracks	KEYWORD2
+getTicksPerBeat	KEYWORD2
+getEventType	KEYWORD2
+getEventDeltaTicks	KEYWORD2
+getEventDataP	KEYWORD2
+readVariableBytes	KEYWORD2
+readFixedLong	KEYWORD2
+readVariableLong	KEYWORD2
+readChunkByte	KEYWORD2
