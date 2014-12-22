@@ -8,6 +8,8 @@
  */
 
 #include <MidiFileStream.h>
+//#define MIDIFILESTREAM_DEBUG 1
+//#define MIDIFILESTREAM_VERBOSE 1
 
 /*
  * Returns the Midi file format:
@@ -583,9 +585,7 @@ event_t MidiFileStream::readEvent() {
       
 #ifdef MIDIFILESTREAM_VERBOSE
       Serial.print("Tempo. uSecPerBeat: ");
-      Serial.print(_eventData.tempo.uSecPerBeat);
-      Serial.print(", microsPerTick: ");
-      Serial.println(_microsPerTick);
+      Serial.println(_eventData.tempo.uSecPerBeat);
 #endif
       break;
       
